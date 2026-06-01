@@ -1,0 +1,62 @@
+{
+  "project": "JSONVision",
+  "version": "1.0.0",
+  "description": "轻量级终端JSON数据可视化与探索工具",
+  "author": {
+    "name": "lobehub",
+    "email": "contact@lobehub.com",
+    "github": "https://github.com/lobehub"
+  },
+  "features": [
+    {
+      "name": "树形可视化",
+      "description": "以树形结构展示JSON数据",
+      "emoji": "🌳"
+    },
+    {
+      "name": "路径查询",
+      "description": "支持JSONPath查询",
+      "emoji": "🔍"
+    },
+    {
+      "name": "格式转换",
+      "description": "JSON/YAML/TOML互转",
+      "emoji": "🔄"
+    },
+    {
+      "name": "统计信息",
+      "description": "显示数据统计",
+      "emoji": "📊"
+    }
+  ],
+  "technologies": {
+    "python": "3.8+",
+    "dependencies": [
+      "rich",
+      "click",
+      "pyyaml",
+      "toml"
+    ]
+  },
+  "examples": [
+    {
+      "input": "data.json",
+      "operation": "可视化",
+      "command": "jsonvision data.json"
+    },
+    {
+      "input": "data.json",
+      "operation": "查询",
+      "command": "jsonvision data.json --query user.name"
+    }
+  ],
+  "stats": {
+    "downloads": 1234,
+    "stars": 567,
+    "forks": 89,
+    "issues": 12,
+    "closed_issues": 10
+  },
+  "license": "MIT",
+  "github": "https://github.com/lobehub/JSONVision"
+}
